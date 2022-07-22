@@ -7,6 +7,7 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
+  color: var(--text-colour);
 }
 .list {
   list-style: none;
@@ -19,13 +20,14 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--header-text-colour);
 }
+
+/* --------------------------------------STUDIO----------------------------------------------- */
 /* ---------------------------HEADER--------------------------- */
 .header-logo,
 .footer-logo {
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -77,7 +79,9 @@ body {
   color: #ffffff;
 
   background-color: var(--accent-colour);
+  cursor: pointer;
 }
+
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #188ce8;
@@ -96,7 +100,6 @@ body {
   margin: -1px;
 }
 .benefits-subtitle {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -104,17 +107,18 @@ body {
   color: var(--header-text-colour);
 }
 .benefits-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--text-colour);
 }
 /* ---------------------------ABOUT-------------------------- */
 
 /* ---------------------------TEAM------------------------- */
 .team {
   background-color: var(--secondary-bg-colour);
+}
+.team-item {
+  background-color: #ffffff;
 }
 .team-subtitle {
   font-weight: 500;
@@ -129,7 +133,6 @@ body {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--text-colour);
 }
 /* ---------------------------FOOTER------------------------- */
 .footer {
@@ -141,7 +144,6 @@ body {
 .adress-link,
 .adress-item-link {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -155,4 +157,35 @@ body {
 .adress-item-link:hover,
 .adress-item-link:focus {
   color: var(--accent-colour);
+}
+
+/* --------------------------------------PORTFOLIO----------------------------------------------- */
+.portfolio-btn {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--header-text-colour);
+  background-color: var(--secondary-bg-colour);
+  cursor: pointer;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--accent-colour);
+  color: #ffffff;
+}
+.portfolio-title {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--header-text-colour);
+}
+.portfolio-subtitle {
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
 }

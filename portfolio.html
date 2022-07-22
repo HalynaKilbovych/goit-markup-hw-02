@@ -15,8 +15,10 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <header сlass="header">
-      <a class="header-logo link" a lang="en" href="./index.html"><span>Web</span>Studio</a>
+    <header>
+      <a class="header-logo link" lang="en" href="./index.html"
+        ><span class="subject">Web</span>Studio</a
+      >
       <nav>
         <ul class="header-nav list">
           <li class="header-nav-item">
@@ -40,76 +42,116 @@
       </ul>
     </header>
     <main>
-      <section>
-        <h1>Портфоліо</h1>
-        <ul>
-          <li>
-            <button type="button">Все</button>
+      <section class="portfolio">
+        <h1 class="visually-hidden">Портфоліо</h1>
+        <ul class="portfolio-filter-list list">
+          <li class="portfolio-filter">
+            <button type="button" class="portfolio-btn">Все</button>
           </li>
-          <li>
-            <button type="button">Веб-сайти</button>
+          <li class="portfolio-filter">
+            <button type="button" class="portfolio-btn">Веб-сайти</button>
           </li>
-          <li>
-            <button type="button">Додатки</button>
+          <li class="portfolio-filter">
+            <button type="button" class="portfolio-btn">Додатки</button>
           </li>
-          <li>
-            <button type="button">Дизайн</button>
+          <li class="portfolio-filter">
+            <button type="button" class="portfolio-btn">Дизайн</button>
           </li>
-          <li>
-            <button type="button">Маркетинг</button>
+          <li class="portfolio-filter">
+            <button type="button" class="portfolio-btn">Маркетинг</button>
           </li>
         </ul>
-        <ul>
-          <li>
-            <img src="" alt="" />
-            <h2></h2>
-            <p></p>
+        <ul class="portfolio-list list">
+          <li class="portfolio-item">
+            <img
+              src="./images/portfolio-1.jpg"
+              alt="зображення роботи 1"
+              width="370"
+              height="294"
+            />
+            <h2 class="portfolio-title">Технокряк</h2>
+            <p class="portfolio-subtitle">Веб-сайт</p>
           </li>
-          <li>
-            <img src="" alt="" />
-            <h2></h2>
-            <p></p>
+          <li class="portfolio-item">
+            <img
+              src="./images/portfolio-2.jpg"
+              alt="зображення роботи 2"
+              width="370"
+              height="294"
+            />
+            <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
+            <p class="portfolio-subtitle">Дизайн</p>
           </li>
-          <li>
-            <img src="" alt="" />
-            <h2></h2>
-            <p></p>
+          <li class="portfolio-item">
+            <img
+              src="./images/portfolio-3.jpg"
+              alt="зображення роботи 3"
+              width="370"
+              height="294"
+            />
+            <h2 class="portfolio-title">Ресторан Seafood</h2>
+            <p class="portfolio-subtitle">Додаток</p>
           </li>
-          <li>
-            <img src="" alt="" />
-            <h2></h2>
-            <p></p>
+          <li class="portfolio-item">
+            <img
+              src="./images/portfolio-4.jpg"
+              alt="зображення роботи 4"
+              width="370"
+              height="294"
+            />
+            <h2 class="portfolio-title">Проєкт Prime</h2>
+            <p class="portfolio-subtitle">Маркетинг</p>
           </li>
-          <li>
-            <img src="" alt="" />
-            <h2></h2>
-            <p></p>
+          <li class="portfolio-item">
+            <img
+              src="./images/portfolio-5.jpg"
+              alt="зображення роботи 5"
+              width="370"
+              height="294"
+            />
+            <h2 class="portfolio-title">Проєкт Boxes</h2>
+            <p class="portfolio-subtitle">Додаток</p>
           </li>
-          <li>
-            <img src="" alt="" />
-            <h2></h2>
-            <p></p>
+          <li class="portfolio-item">
+            <img
+              src="./images/portfolio-6.jpg"
+              alt="зображення роботи 6"
+              width="370"
+              height="294"
+            />
+            <h2 class="portfolio-title">Inspiration has no Borders</h2>
+            <p class="portfolio-subtitle">Веб-сайт</p>
           </li>
-          <li>
-            <img src="" alt="" />
-            <h2></h2>
-            <p></p>
+          <li class="portfolio-item">
+            <img
+              src="./images/portfolio-7.jpg"
+              alt="зображення роботи 7"
+              width="370"
+              height="294"
+            />
+            <h2 class="portfolio-title">Видання Limited Edition</h2>
+            <p class="portfolio-subtitle">Дизайн</p>
           </li>
-          <li>
-            <img src="" alt="" />
-            <h2></h2>
-            <p></p>
+          <li class="portfolio-item">
+            <img
+              src="./images/portfolio-8.jpg"
+              alt="зображення роботи 8"
+              width="370"
+              height="294"
+            />
+            <h2 class="portfolio-title">Проект LAB</h2>
+            <p class="portfolio-subtitle">Маркетинг</p>
           </li>
-          <li>
-            <img src="" alt="" />
-            <h2></h2>
-            <p></p>
+          <li class="portfolio-item">
+            <img src="./images/portfolio-9.jpg" alt="зображення роботи 9" />
+            <h2 class="portfolio-title">Growing Business</h2>
+            <p class="portfolio-subtitle">Додаток</p>
           </li>
         </ul>
       </section>
     </main>
     <footer class="footer">
-      <a class="footer-logo link" href="./index.html">WebStudio</a>
+      <a class="footer-logo link" href="./index.html"><span class="subject">Web</span>Studio</a>
       <address class="adress">
         <ul class="adress-list list">
           <li class="adress-item">
@@ -122,12 +164,12 @@
             >
           </li>
           <li class="adress-item">
-            <a class="adress-link link" lang="en" href="mailto:info@devstudio.com"
+            <a class="adress-item-link link" lang="en" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li class="adress-item">
-            <a class="adress-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="adress-item-link link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
       </address>
